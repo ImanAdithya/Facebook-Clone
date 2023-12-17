@@ -1,3 +1,4 @@
+import 'package:facebook_clone/widgets/circle_buttons.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -21,12 +22,7 @@ class HomeScreen extends StatelessWidget {
             centerTitle: false,
             floating: true,
             actions: [
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.search),
-                iconSize: 30.0,
-                color: Colors.black,
-              ),
+              CircleButton(icon: Icons.search, iconSize: 30)
             ],
           )
         ],
